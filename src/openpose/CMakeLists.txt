@@ -51,8 +51,8 @@ elseif (WIN32)
   endforeach (SUB_DIR ${SUB_DIRS})
   set_target_properties(openpose PROPERTIES COMPILE_FLAGS -DOP_EXPORTS)
   # Properties->General->Output Directory
-  set_property(TARGET openpose PROPERTY RUNTIME_OUTPUT_DIRECTORY_RELEASE ${PROJECT_BINARY_DIR}/$(Platform)/$(Configuration))
-  set_property(TARGET openpose PROPERTY RUNTIME_OUTPUT_DIRECTORY_DEBUG ${PROJECT_BINARY_DIR}/$(Platform)/$(Configuration))
+  set_property(TARGET openpose PROPERTY RUNTIME_OUTPUT_DIRECTORY_RELEASE ${PROJECT_BINARY_DIR}/${CMAKE_VS_PLATFORM_NAME}/${CMAKE_BUILD_TYPE})
+  set_property(TARGET openpose PROPERTY RUNTIME_OUTPUT_DIRECTORY_DEBUG ${PROJECT_BINARY_DIR}/${CMAKE_VS_PLATFORM_NAME}/${CMAKE_BUILD_TYPE})
 
 endif (UNIX OR APPLE)
 
