@@ -1,0 +1,139 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "01_body_from_image_default.exe (bin\\01_body_from_image_default.exe)",
+      "name": "01_body_from_image_default.exe (bin\\01_body_from_image_default.exe)",
+      "currentDir": "${workspaceRoot}"
+    },
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "02_whole_body_from_image_default.exe (bin\\02_whole_body_from_image_default.exe)",
+      "name": "02_whole_body_from_image_default.exe (bin\\02_whole_body_from_image_default.exe)",
+      "currentDir": "${workspaceRoot}"
+    },
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "03_keypoints_from_image.exe (bin\\03_keypoints_from_image.exe)",
+      "name": "03_keypoints_from_image.exe (bin\\03_keypoints_from_image.exe)",
+      "currentDir": "${workspaceRoot}"
+    },
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "04_keypoints_from_images.exe (bin\\04_keypoints_from_images.exe)",
+      "name": "04_keypoints_from_images.exe (bin\\04_keypoints_from_images.exe)",
+      "currentDir": "${workspaceRoot}"
+    },
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "05_keypoints_from_images_multi_gpu.exe (bin\\05_keypoints_from_images_multi_gpu.exe)",
+      "name": "05_keypoints_from_images_multi_gpu.exe (bin\\05_keypoints_from_images_multi_gpu.exe)",
+      "currentDir": "${workspaceRoot}"
+    },
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "06_face_from_image.exe (bin\\06_face_from_image.exe)",
+      "name": "06_face_from_image.exe (bin\\06_face_from_image.exe)",
+      "currentDir": "${workspaceRoot}"
+    },
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "07_hand_from_image.exe (bin\\07_hand_from_image.exe)",
+      "name": "07_hand_from_image.exe (bin\\07_hand_from_image.exe)",
+      "currentDir": "${workspaceRoot}"
+    },
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "08_heatmaps_from_image.exe (bin\\08_heatmaps_from_image.exe)",
+      "name": "08_heatmaps_from_image.exe (bin\\08_heatmaps_from_image.exe)",
+      "currentDir": "${workspaceRoot}"
+    },
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "09_keypoints_from_heatmaps.exe (bin\\09_keypoints_from_heatmaps.exe)",
+      "name": "09_keypoints_from_heatmaps.exe (bin\\09_keypoints_from_heatmaps.exe)",
+      "currentDir": "${workspaceRoot}"
+    },
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "10_asynchronous_custom_input.exe (bin\\10_asynchronous_custom_input.exe)",
+      "name": "10_asynchronous_custom_input.exe (bin\\10_asynchronous_custom_input.exe)",
+      "currentDir": "${workspaceRoot}"
+    },
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "11_asynchronous_custom_output.exe (bin\\11_asynchronous_custom_output.exe)",
+      "name": "11_asynchronous_custom_output.exe (bin\\11_asynchronous_custom_output.exe)",
+      "currentDir": "${workspaceRoot}"
+    },
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "12_asynchronous_custom_input_output_and_datum.exe (bin\\12_asynchronous_custom_input_output_and_datum.exe)",
+      "name": "12_asynchronous_custom_input_output_and_datum.exe (bin\\12_asynchronous_custom_input_output_and_datum.exe)",
+      "currentDir": "${workspaceRoot}"
+    },
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "13_synchronous_custom_input.exe (bin\\13_synchronous_custom_input.exe)",
+      "name": "13_synchronous_custom_input.exe (bin\\13_synchronous_custom_input.exe)",
+      "currentDir": "${workspaceRoot}"
+    },
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "14_synchronous_custom_preprocessing.exe (bin\\14_synchronous_custom_preprocessing.exe)",
+      "name": "14_synchronous_custom_preprocessing.exe (bin\\14_synchronous_custom_preprocessing.exe)",
+      "currentDir": "${workspaceRoot}"
+    },
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "15_synchronous_custom_postprocessing.exe (bin\\15_synchronous_custom_postprocessing.exe)",
+      "name": "15_synchronous_custom_postprocessing.exe (bin\\15_synchronous_custom_postprocessing.exe)",
+      "currentDir": "${workspaceRoot}"
+    },
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "16_synchronous_custom_output.exe (bin\\16_synchronous_custom_output.exe)",
+      "name": "16_synchronous_custom_output.exe (bin\\16_synchronous_custom_output.exe)",
+      "currentDir": "${workspaceRoot}"
+    },
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "17_synchronous_custom_all_and_datum.exe (bin\\17_synchronous_custom_all_and_datum.exe)",
+      "name": "17_synchronous_custom_all_and_datum.exe (bin\\17_synchronous_custom_all_and_datum.exe)",
+      "currentDir": "${workspaceRoot}"
+    },
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "OpenPoseDemo.exe (bin\\OpenPoseDemo.exe)",
+      "name": "OpenPoseDemo.exe (bin\\OpenPoseDemo.exe)",
+      "currentDir": "${workspaceRoot}"
+    },
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "Calibration.exe (bin\\Calibration.exe)",
+      "name": "Calibration.exe (bin\\Calibration.exe)",
+      "currentDir": "${workspaceRoot}"
+    }
+  ]
+}
