@@ -1,4 +1,11 @@
-# 1. Visual Studio 2017 のインストール
+# 0. 目次
+
+ - 1. Visual Studio 2017 のインストール  
+ - 2. CUDA のインストール (nVidia製のGPUを持っている場合)   
+ - 3. OpenPose のダウンロード  
+ - 4. OpenPose のビルド  
+
+# 1. Visual Studio 2017 のインストール  
 
 [https://docs.microsoft.com/ja-jp/visualstudio/releasenotes/vs2017-relnotes](https://docs.microsoft.com/ja-jp/visualstudio/releasenotes/vs2017-relnotes)
  より  
@@ -14,7 +21,7 @@
 
  にチェックを入れ、右下の `インストール` を押します。
 
-# 2. CUDA のインストール (nVidia製のGPUを持っている場合)
+# 2. CUDA のインストール (nVidia製のGPUを持っている場合)  
 
 ## 2.1 CUDA 10.1 のインストール
 
@@ -46,7 +53,7 @@
 ダウンロードしたzipファイルを展開し、cudaフォルダ以下にある全てのファイル、フォルダを  
 `C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\` 以下に上書きコピーします。  
 
-# 3 OpenPoseをダウンロードします  
+# 3. OpenPose のダウンロード  
 
 ## 3.1 OpenPoseフォルダの作成
 
@@ -72,7 +79,7 @@ git clone https://github.com/CMU-Perceptual-Computing-Lab/openpose
 
 そのうち書く
 
-## 3.4 OpenPoseを開く
+# 4. OpenPose のビルド  
 
 `Visual Studio 2017` を起動します。  
 上部の `ファイル` > `開く` > `CMake` より `C:\openpose\openpose\CMakeLists.txt` を開きます。  
