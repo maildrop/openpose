@@ -1,9 +1,9 @@
 # 0. 目次
 
- - 1. Visual Studio 2017 のインストール  
- - 2. CUDA のインストール (nVidia製のGPUを持っている場合)   
- - 3. OpenPose のダウンロード  
- - 4. OpenPose のビルド  
+ 1. Visual Studio 2017 のインストール  
+ 2. CUDA のインストール (nVidia製のGPUを持っている場合)   
+ 3. OpenPose のダウンロード  
+ 4. OpenPose のビルド  
 
 # 1. Visual Studio 2017 のインストール  
 
@@ -84,4 +84,4 @@ git clone https://github.com/CMU-Perceptual-Computing-Lab/openpose
 `Visual Studio 2017` を起動します。  
 上部の `ファイル` > `開く` > `CMake` より `C:\openpose\openpose\CMakeLists.txt` を開きます。  
 上部の `スタートアップアイテムの選択` より、実行したいプロジェクトを選択します。  
-F5キーで、選択したプロジェクトの実行ができます。
+F5キーで、選択したプロジェクトの実行ができます。  
